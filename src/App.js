@@ -6,6 +6,7 @@ import './App.css';
 import Footer from './Components/Footer';
 import Product from './Components/Services/Product';
 import Notfound from "./Components/Notfound"
+import Book from "./Components/Services/Book"
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Routes>
     <Route path='/' element={<Home />}></Route>
     <Route path='/product' element={<Product />}></Route>
+    <Route path='/book' element={<Book />}></Route>
        <Route path="*" element={<Notfound />} />
     </Routes>
     </BrowserRouter>
